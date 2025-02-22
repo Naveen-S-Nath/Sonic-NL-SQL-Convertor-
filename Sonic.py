@@ -6,7 +6,7 @@ from tkinter import scrolledtext
 from PIL import Image, ImageTk
 
 # Configure Gemini AI
-genai.configure(api_key=os.environ.get("GEMINI_API_KEY", "AIzaSyD8eTQvrCVDFizlD4fLnO90h_eXXNDEfW4"))
+genai.configure(api_key=os.environ.get("GEMINI_API_KEY", "AIzaSyD8eTQvrCVDFxizlD4fLnO90h_exXXNDEfWx4"))
 
 generation_config = {
     "temperature": 1,
